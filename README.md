@@ -1,2 +1,2 @@
-# checkAbdScoreSystem
- My miniproject in php langlauge.
+# ระบบเช็คชื่อและคะแนน
+ เป็นมินิโปรเจคเขียนด้วยภาษา PHP 
