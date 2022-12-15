@@ -1,0 +1,42 @@
+#page {
+    margin-top: 2rem;
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-areas:
+      "check statis_check"
+      "check  statis_check"
+      "score  statis_score"
+      "score  statis_score";
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  #page > #check {
+    grid-area: check;
+    text-align: center;
+    /*background-color: #8ca0ff;*/
+  }
+  
+  #page > #statis_check {
+    grid-area: statis_check;
+    text-align: center;
+    /*background-color: #ffa08c;*/
+  }
+  
+  #page > #score {
+    grid-area: score;
+    text-align: center;
+    /*background-color: #ffff64;*/
+  }
+  
+  #page > #statis_score {
+    grid-area: statis_score;
+    text-align: center;
+    /*background-color: #8cffa0;*/
+  }

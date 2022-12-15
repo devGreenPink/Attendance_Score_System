@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    color: darkred;
+    background-color: cornsilk;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    padding: 2rem;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .container--inverted {
+    color: cornsilk;
+    background-color: darkred;
+  }
+  .button {
+    padding: 0.5rem 2rem;
+    border: 0.2rem solid darkred;
+    border-radius: 0.5rem;
+    
+    font-size: 1.2rem; 
+    color: cornsilk;
+    background-color: darkred;
+  }
+  
+  .button:active {
+    color: darkred;
+    background-color: cornsilk;
+  }
+  
+  
+  .button--inverted {
+    border-color: cornsilk;
+    
+    color: darkred;
+    background-color: cornsilk;
+  }
+  
+  .button--inverted:active {
+    color: cornsilk;
+    background-color: darkred;
+  }
